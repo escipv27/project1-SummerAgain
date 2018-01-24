@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>다시 시작되는 여름! Summer Once Again</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Expires" content="-1" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Cache-Control" content="No-Cache" />
+
+	<meta name="keywords" content="크게 휘두르며, 크게 휘두르며 온리전, 후리전, 후리온, 오오후리, 오오후리 온리전" />
+	<meta name="description" content="" />
+
+
+	<link rel="shortcut icon" href="">
+
+	<link rel="stylesheet" type="text/css" href="font/fonts_en.css">
+	<link rel="stylesheet" type="text/css" href="fontk/font_kp.css">
+	<link rel="stylesheet" type="text/css" href="icon/icons.css">
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+
+	<script src="index.js"></script>
+	<script src=""></script>
+	<script src=""></script>
+	
+</head>
+
+<body>
+
+
+<!-- LOGIN -->
+<div id="page_login">
+
+
+	<div id="inner_conent_login" class="inner_content_header_none">
+
+
+
+		<div id="con_login">
+			<h4>LOG-IN</h4>
+			<p>서클 참가자 전용 페이지입니다.</p>
+			
+
+			<div id="user_login_form_box">
+				<div class="user_login_form_item_wp"><input type="text" name="entryemailid" maxlength="100" id="lgnEmailId" class="user_login_form_item_box"></div>
+
+				<div class="user_login_form_item_wp"><input type="password" name="entryhppasscode" maxlength="4" id="lgnHpPasscode" class="user_login_form_item_box"></div>
+
+				<div id="user_login_btn_wp">
+					<a href="#" id="user_login_btn">GO!</a>
+				</div>
+
+			</div>
+
+		</div>
+
+
+		</div>
+
+	</div> <!-- end of inner content -->
+
+</div> <!-- end of one page -->
+
+
+
+
+
+<!-- user page main -->
+<div id="page_user_main">
+
+
+		<div id="inner_conent_user_personal" class="inner_content_header_none">
+
+
+			<div id="con_userp">
+
+				<h4><a href="#" id="userp_tomain_btn" class="">ME</a></h4>
+
+				<div id="userp_btn_wp">
+					<div id="circle_title_my" class="userp_circle_titles a">
+						<a href="#" id="circle_application_load_mine" class="userp_circle_titles_text">내 서클 신청서<br>확인하기</a>
+					</div>
+					<div id="circle_title_qna" class="userp_circle_titles b">
+						<a href="#" id="" class="userp_circle_titles_text">서클 전용<br>문의 게시판</a>
+					</div>
+					<!--<div id="circle_title_mod" class="userp_circle_titles a">
+						<a href="#" id="circle_application_modify_load" class="userp_circle_titles_text">서클 신청서<br>수정</a>
+					</div>-->
+					<div id="circle_title_coop_req" class="userp_circle_titles a">
+						<a href="#" id="" class="userp_circle_titles_text">트레카 협력<br>신청</a>
+					</div>
+					
+				</div>
+
+
+				<div id="userp_circle_notice_wp">
+					<ul>
+						<li>서클 참가자 전용 공지사항입니다.</li>
+						<li>대표자 이메일과 부스 규모는 수정이 불가합니다.</li>
+						<li>19금 회지 포함 여부 항목이 추가되었습니다. 확인 부탁드립니다.</li>
+						<li>서클 전용 문의 게시판이 활성화 되었습니다.</li>
+						<li>서클 신청서 수정 버튼이 비활성화 되었습니다. 앞으로의 수정 요청은 게시판을 통해주세요.</li>
+					</ul>
+				</div>
+
+
+				<div id="userp_contents">
+					<div id="userp_circle_application_wp">
+
+
+							<div class="form_item_wp"><span class="form_item_name bolda">&#9918; 내 서클 신청서</span> <br></div>
+
+
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 서클컷</span><br><br>
+								<img id="entryCirclePicUrl" src="http://rsquared.i01.naya.kr/summeragainweb1/img/clipart/comingsoon_circle.png">
+							</div>
+
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 서클명</span> <span name="entrycirclename" id="entryCircleName" class="form_item_result_text"></span><br></div>
+
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 서클 입장 비밀번호</span><span id="entryCirclePasscode" class="form_item_result_text"></span><br></div>
+
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 서클 소개</span> <span id="entryCircleInfo" class="form_item_result_text"></span><br></div>
+
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 부스 규모</span> <span id="entryCircleSize" class="form_item_sub"></span><br></div>
+
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 19금 여부</span> <span id="entryCircleAge" class="form_item_sub"></span><br></div>
+
+
+
+
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 대표자명</span> <span id="entryRepName" class="form_item_result_text"></span><br></div>
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 입금자명</span> <span id="entryRepRealName" class="form_item_result_text"></span><br></div>
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 대표자 이메일 (ID)</span> <span id="entryEmailId" class="form_item_result_text"></span><br></div>
+
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 홈페이지 로그인 비밀번호</span> <span id="entryHpPasscode" class="form_item_result_text"></span><br></div>
+
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 참가자 닉네임/출생년도</span> <span id="entryNamesAndYear" class="form_item_result_text"></span><br></div>
+
+							
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 참가자 1 홈페이지 URL</span> <span id="entryOneUrl" class="form_item_result_text"></span><br></div>
+
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 참가자 1 배너 이미지 URL</span> <span id="entryOneBanner" class="form_item_result_text"></span><br></div>
+
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 참가자 2 홈페이지 URL</span> <span id="entryTwoUrl" class="form_item_result_text"></span><br></div>
+							<div class="form_item_wp"><span class="form_item_name">&#9918; 참가자 2 배너 이미지 URL</span> <span id="entryTwoBanner" class="form_item_result_text"></span><br></div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+			</div>
+
+		</div> <!-- end of inner content -->
+
+	</div> <!-- end of one page -->
+
+
+
+
+
+
+<div id="userp_contents_modify_application">
+					<div id="userp_circle_application_wp">
+
+
+					<div id="application_modify_form" class="entry_forms">
+
+						<div class="form_item_wp"><span class="form_item_name bolda">&#9918; 서클 정보</span> <br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 서클명</span> <input type="text" name="entrycirclename" maxlength="40" id="entryCircleName" class="form_item_box"><br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 서클 입장 비밀번호</span> <input type="text" name="entrycirclepasscode" maxlength="40" id="entryCirclePasscode" class="form_item_box"><br>
+						<br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 서클 소개 <span class="form_item_info a">(커플링 또는 간단한 소개)</span></span><br> <input type="text" name="entrycircleinfo" maxlength="200" id="entryCircleInfo" class="form_item_box"><br>
+						<br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 부스 규모</span> <span id="entryCircleSize" class="form_item_sub"></span><br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 서클컷 URL <span class="form_item_info a">(파일 업로드 불가합니다.)</span></span> <input type="text" name="entrycirclepicurl" maxlength="200" id="entryCirclePicUrl" class="form_item_box"><br>
+						<br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 19금 여부</span> <input type="radio" name="entrycircleage" value="19금 포함" id="over19" class="form_item_radio"><span class="form_item_sub">19금 포함</span> <input type="radio" name="entrycircleage" value="전연령가" id="under19" class="form_item_radio"><span class="form_item_sub">전체 연령가</span><br></div>
+
+
+						<div class="form_item_wp"><span class="form_item_name bolda">&#9918; 참가자 정보</span><br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 대표자명</span> <input type="text" name="entryrepname" maxlength="40" id="entryRepName" class="form_item_box"><br></div>
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 입금자명</span> <input type="text" name="entryreprealname" maxlength="40" id="entryRepRealName" class="form_item_box"><br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 대표자 이메일 (ID)</span> <span id="entryEmailId" class="form_item_result_text"></span><br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 홈페이지 로그인 비밀번호 <span class="form_item_info a">(4자리 숫자로 입력해주세요.)</span></span> <input type="password" name="entryhppasscode" maxlength="4" id="entryHpPasscode" class="form_item_box"><br>
+						<br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 참가자 닉네임/출생년도 <span class="form_item_info a">(EX: 미하시/93, 아베/94)</span></span> <input type="text" name="entrynamesandyear" maxlength="100" id="entryNamesAndYear" class="form_item_box"><br>
+						<br></div>
+
+						
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 참가자 1 홈페이지 URL <span class="form_item_info a">(optional)</span> </span> <input type="text" name="entryoneurl" maxlength="200" id="entryOneUrl" class="form_item_box"><br>
+						<br></div>
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 참가자 1 배너 이미지 URL <span class="form_item_info a">(optional)</span> </span> <input type="text" name="entryonebanner" maxlength="200" id="entryOneBanner" class="form_item_box"><br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 참가자 2 홈페이지 URL <span class="form_item_info a">(optional)</span> </span> <input type="text" name="entrytwourl" maxlength="200" id="entryTwoUrl" class="form_item_box"><br></div>
+
+						<div class="form_item_wp"><span class="form_item_name">&#9918; 참가자 2 배너 이미지 URL <span class="form_item_info a">(optional)</span> </span> <input type="text" name="entrytwobanner" maxlength="200" id="entryTwoBanner" class="form_item_box"><br></div>
+
+
+						<a href="#" id="circle_application_modify_submit" class="form_btns">수정하기</a> <a href="#" id="circle_application_modify_cancel" class="form_btns">뒤로가기</a>
+
+					</div>	
+
+
+					</div>
+
+</div>
+
+
+
+
+<!-- CIRCLE ONLY -->
+<div id="page_circle_board">
+	<div id="frame">
+		<h2><a href="http://summeragain.dothome.co.kr/index.php?module=admin" target="framex" id="qna_admin_link">서클 참가자 전용 게시판</a></h2>
+		<iframe src="http://summeragain.dothome.co.kr/circle" name="framec" frameborder="0" class="frame"></iframe>
+	</div>
+</div>
+
+
+
+
+<!-- TRADING CARD ONLY -->
+<div id="page_trc_board">
+	<div id="frame">
+		<iframe src="http://summeragain.dothome.co.kr/trc" name="framec" frameborder="0" class="frame"></iframe>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

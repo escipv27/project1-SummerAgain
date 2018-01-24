@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'AvantGardeLT-Medium';
+  src: url('AvantGardeLT-Medium.eot');
+  src: url('AvantGardeLT-Medium.eot?#iefix') format('embedded-opentype'),
+       url('AvantGardeLT-Medium.woff') format('woff'),
+       url('AvantGardeLT-Medium.svg#AvantGardeLT-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'NEONLIGHTS';
+  src: url('NEONLIGHTS.eot');
+  src: url('NEONLIGHTS.eot?#iefix') format('embedded-opentype'),
+       url('NEONLIGHTS.woff') format('woff'),
+       url('NEONLIGHTS.svg#NEONLIGHTS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'UniSansThinCAPS';
+  src: url('UniSansThinCAPS.eot');
+  src: url('UniSansThinCAPS.eot?#iefix') format('embedded-opentype'),
+       url('UniSansThinCAPS.woff') format('woff'),
+       url('UniSansThinCAPS.svg#UniSansThinCAPS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'UniSansThinItalicCAPS';
+  src: url('UniSansThinItalicCAPS.eot');
+  src: url('UniSansThinItalicCAPS.eot?#iefix') format('embedded-opentype'),
+       url('UniSansThinItalicCAPS.woff') format('woff'),
+       url('UniSansThinItalicCAPS.svg#UniSansThinItalicCAPS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'UniSansHeavyCAPS';
+  src: url('UniSansHeavyCAPS.eot');
+  src: url('UniSansHeavyCAPS.eot?#iefix') format('embedded-opentype'),
+       url('UniSansHeavyCAPS.woff') format('woff'),
+       url('UniSansHeavyCAPS.svg#UniSansHeavyCAPS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'UniSansHeavyItalicCAPS';
+  src: url('UniSansHeavyItalicCAPS.eot');
+  src: url('UniSansHeavyItalicCAPS.eot?#iefix') format('embedded-opentype'),
+       url('UniSansHeavyItalicCAPS.woff') format('woff'),
+       url('UniSansHeavyItalicCAPS.svg#UniSansHeavyItalicCAPS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
